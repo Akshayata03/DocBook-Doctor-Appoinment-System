@@ -1,0 +1,74 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+.cover1{
+    background-image: url('https://img.freepik.com/free-photo/medicine-blue-background-flat-lay_23-2149341573.jpg');
+    background-size: cover;
+height: 100vh;
+padding-top: 130px;
+    
+}
+
+
+.page1{
+    display: flex;
+   justify-content:center;
+   margin-left: 520px;
+   background-color:transparent;
+   backdrop-filter: blur;
+   color: rgb(0, 0, 0);
+   width: 540px;
+   height: 500px;
+   text-align: center;
+   box-shadow: 100px;
+   border: 2px solid rgba(255,255,255,.7)
+}
+
+    
+.page1 h1{
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(7, 21, 71);
+}
+
+.inputbox1{
+    width: 50vh;
+    height: 50%;
+    padding: 10px;
+    display: flex;
+    margin:20px 0;
+    background: transparent;
+    border:none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.inputbox1 input{
+    width: 100%;
+    color: aliceblue;
+    background: transparent;
+    border:none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    
+    
+}
+.inputbox1 placeholder{
+    color: aliceblue;
+}
+
+#b4{
+    padding: 5px;
+    border-radius:20px;
+    width: 100px;
+    font-size: 20px;
+    margin: 10px;
+    background: transparent;
+}
+.checkbox1{
+    color: #ffffff;
+    margin: 10px;
+} 
